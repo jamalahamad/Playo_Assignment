@@ -1,0 +1,6 @@
+framework module Pods_Playo_Assignment {
+  umbrella header "Pods-Playo_Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
