@@ -17,6 +17,7 @@
 		48208F772830E9AA00B86137 /* Playo_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48208F762830E9AA00B86137 /* Playo_AssignmentUITests.swift */; };
 		48208F902830EB6B00B86137 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48208F8F2830EB6B00B86137 /* NetworkManager.swift */; };
 		48208F952830EC8F00B86137 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48208F942830EC8F00B86137 /* Constants.swift */; };
+		4820FAE428C616D4001F5E3E /* PlayoVMTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820FAE328C616D4001F5E3E /* PlayoVMTest.swift */; };
 		48BB99EC28314D0900BE36B8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BB99EB28314D0900BE36B8 /* DetailsViewController.swift */; };
 		48E92CDF2830F02900F60225 /* HomeNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E92CDD2830F02900F60225 /* HomeNewsTableViewCell.swift */; };
 		48E92CE02830F02900F60225 /* HomeNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E92CDE2830F02900F60225 /* HomeNewsTableViewCell.xib */; };
@@ -66,6 +67,7 @@
 		48208F782830E9AA00B86137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48208F8F2830EB6B00B86137 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		48208F942830EC8F00B86137 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4820FAE328C616D4001F5E3E /* PlayoVMTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayoVMTest.swift; sourceTree = "<group>"; };
 		48BB99EB28314D0900BE36B8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		48E92CDD2830F02900F60225 /* HomeNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNewsTableViewCell.swift; sourceTree = "<group>"; };
 		48E92CDE2830F02900F60225 /* HomeNewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeNewsTableViewCell.xib; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			children = (
 				48208F6B2830E9AA00B86137 /* Playo_AssignmentTests.swift */,
 				48208F6D2830E9AA00B86137 /* Info.plist */,
+				4820FAE328C616D4001F5E3E /* PlayoVMTest.swift */,
 			);
 			path = Playo_AssignmentTests;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4820FAE428C616D4001F5E3E /* PlayoVMTest.swift in Sources */,
 				48208F6C2830E9AA00B86137 /* Playo_AssignmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,12 +35,12 @@ class ViewController: UIViewController {
 
     func getNewsdata() {
         let vm = NewsViewModel()
-        vm.getNewsData(url: Constants.newsUrl) { (articleDataModel, error) in
+        vm.getNewsData(url: Constants.newsUrl) { [weak self] (articleDataModel, error) in
             DispatchQueue.main.async {
                 guard let art = articleDataModel?.articles else {return}
-                self.articles = art
-                self.homeNewsTable.reloadData()
-                self.refreshControl.endRefreshing()
+                self?.articles = art
+                self?.homeNewsTable.reloadData()
+                self?.refreshControl.endRefreshing()
             }
         }
     }
